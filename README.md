@@ -12,6 +12,8 @@ Techs:
 
 ## How to run this app:
 
+note: You will need to create an account on TheMovieDB and request an access token to use their api
+
 First, clone the repository
 
 ```
