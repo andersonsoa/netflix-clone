@@ -1,0 +1,71 @@
+.movie__row {
+  position: relative;
+  padding: 0 0 0 30px;
+  margin-bottom: 1.5rem;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
+.movie__list {
+  display: flex;
+  overflow-x: hidden;
+
+  .movie__left_click,
+  .movie__right_click {
+    position: absolute;
+    width: 3rem;
+    height: 100%;
+    background-image: linear-gradient(#0000 5%, #000 30%, #000 70%, #0000 95%);
+    cursor: pointer;
+    transform: scale(0.9);
+
+    transition: all 0.3s ease-in-out;
+
+    font-size: 2rem;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 99;
+
+    opacity: 0;
+  }
+
+  .movie__left_click {
+    left: 0;
+  }
+
+  .movie__right_click {
+    right: 0;
+  }
+
+  &:hover .movie__left_click,
+  &:hover .movie__right_click {
+    opacity: 1;
+  }
+
+  .movie__left_click:hover,
+  .movie__right_click:hover {
+    transform: scale(1);
+  }
+
+  .movie__poster {
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    min-width: 200px;
+    height: 300px;
+
+    .movie__image {
+      transform: scale(0.9);
+      transition: all ease 0.2s;
+    }
+  }
+
+  .movie__poster:hover img {
+    transform: scale(1);
+  }
+}
