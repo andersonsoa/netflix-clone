@@ -1,5 +1,7 @@
 # Netflix Clone
 
+![image](https://user-images.githubusercontent.com/19675356/146947969-65e12eb6-c65d-4645-b2f7-79905810ad3c.png)
+
 Clone developened with study purpose
 
 Techs:
@@ -17,7 +19,7 @@ note: You will need to create an account on TheMovieDB and request an access tok
 First, clone the repository
 
 ```
-  git clone ...
+  git clone https://github.com/andersonsoa/netflix-clone.git
 ```
 
 Second, run these commands:
