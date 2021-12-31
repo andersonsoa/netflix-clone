@@ -23,7 +23,7 @@ export const useMovies = () => {
       setCategories([
         {
           slug: "originals",
-          title: "Originais Netflix",
+          title: "Originais da Netflix",
           movies: originals.data.results,
         },
         {
